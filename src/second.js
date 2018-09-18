@@ -1,4 +1,3 @@
 export default function superAwesomeFunc() {
-    return console.log("Cool Bro");
-  }
-  
+  return console.log("Toats not cool");
+}
