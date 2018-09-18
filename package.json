@@ -4,7 +4,9 @@
   "description": "new project repo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode=development -w",
+    "build:prod": "webpack --mode=production -w"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,7 @@
   "homepage": "https://github.com/verticaldesign/project-setup#readme",
   "devDependencies": {
     "prettier": "^1.14.2",
-    "webpack": "^4.19.1"
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
   }
 }
